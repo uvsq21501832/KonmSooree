@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\UVSQ\workspace\PROJET_MAVEN\KonmSooree\lib\KonmSooree.jar</jar>
+  <outfile>C:\Users\UVSQ\workspace\PROJET_MAVEN\KonmSooree.exe</outfile>
+  <errTitle>Outil KonmSooree : l&apos;outil a rencontré un problème</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <singleInstance>
+    <mutexName>KonmSooree</mutexName>
+    <windowTitle>Une instance est deja en cours d&apos;execution</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>KonmSooree</mainClass>
+    <cp>lib/KonmSooree.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jre7</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.6.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0</txtFileVersion>
+    <fileDescription>KonmSooree</fileDescription>
+    <copyright>Copyright (c) 2015 IP</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0</txtProductVersion>
+    <productName>KonmSooree</productName>
+    <companyName>IP</companyName>
+    <internalName>KonmSooree</internalName>
+    <originalFilename>KonmSooree.exe</originalFilename>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
